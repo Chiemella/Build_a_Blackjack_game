@@ -1,15 +1,16 @@
 
-let lap1 = 34;
-let lap2 = 33;
-let lap3 = 36;
+let incrementLap = 0
 
 function increment() {
- let totalTime = lap1 + lap2 + lap3
+    incrementLap = incrementLap + 1
 
-    console.log(totalTime);
 
 }
+increment()
+increment()
+increment()
+console.log(incrementLap)
 
-console.log()
+
 
 
