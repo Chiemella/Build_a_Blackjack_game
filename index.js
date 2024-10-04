@@ -1,3 +1,7 @@
 function increment () {
-    console.log("This button was clicked")
+    console.log(45)
+    
 }
+
+
+
