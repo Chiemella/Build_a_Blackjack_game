@@ -1,1 +1,3 @@
-document.getElementById("count-el").innerHTML = 5;
+function increment () {
+    console.log("This button was clicked")
+}
