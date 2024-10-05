@@ -1,9 +1,12 @@
-let welcomeEl = document.getElementById("welcome-el");
-let nam = "Hope";
-let greeting = "Hi, how're you doing today?";
-welcomeEl.innerHTML = greeting +" "+ nam;
+let countEl = document.getElementById("count-el")
+let count = 0
 
-welcomeEl.innerHTML = welcomeEl.innerHTML + "" + "👋";
+function increment() {
+    // Change this to use the plus equal technique you've learned
+    count += 1
+    countEl.innerText = count
+}
 
-// Or welcomEl.innerHTML += "👋";
-
+function save() {
+    console.log(count)
+}
