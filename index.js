@@ -1,14 +1,15 @@
 
-let countEl = document.getElementById("count-el")
-console.log(countEl)
+let countEL = document.getElementById("count-el")
 
-let count = 1
+let count = 0
 
-function increment() {
- count = count + 0
-countEl.innerHTML = count
-
+function increment(){
+    count = count + 1;
+    countEL.innerHTML = count
 }
+
+increment()
+console.log(countEl)
 
 
 
