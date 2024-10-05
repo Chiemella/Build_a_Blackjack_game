@@ -1,20 +1,4 @@
-
-let countEL = document.getElementById("count-el")
-
-let count = 0
-
-function increment(){
-    count = count + 1;
-    countEL.innerHTML = count
-}
-
-function save() {
-    console.log(count);
-}
-
-save()
-
-
-
-
-
+let welcomeEl = document.getElementById("welcome-el");
+let name = "Hope";
+let greeting = "Hi, how're you doing today? ";
+welcomeEl.innerHTML = greeting + name;
