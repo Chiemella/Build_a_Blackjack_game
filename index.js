@@ -1,15 +1,15 @@
 
-let incrementLap = 0
+let countEl = document.getElementById("count-el")
+console.log(countEl)
+
+let count = 1
 
 function increment() {
-    incrementLap = incrementLap + 1
-
+ count = count + 0
+countEl.innerHTML = count
 
 }
-increment()
-increment()
-increment()
-console.log(incrementLap)
+
 
 
 
