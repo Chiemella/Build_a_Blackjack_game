@@ -6,12 +6,12 @@ console.log(saveEl)
 function increment() {
     // Change this to use the plus equal technique you've learned
     count += 1
-    countEl.innerText = count
+    countEl.textContent = count
 }
 
 function save() {
    let countStr = count + " - "
-    saveEl.innerText += countStr
+    saveEl.textContent += countStr
 
     console.log(count)
 }
